@@ -66,7 +66,7 @@ let cartRow = document.createElement('div')
     let cartItemNames = cartItems.getElementsByClassName('cart-item-title')
     for (let i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
-            alert('This item is already added to the cart')
+            alert('This item has already been added to the cart')
             return
         }
     }
