@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's World</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lightslider.css" />
+    <link rel="stylesheet" href="css/carts.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/Jquery.js" defer></script>
+    <script src="js/lightslider.js" defer></script>
+    <script src="js/store.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="navigation">
+        <a href="#" class="logo">
+          <img src="images/logo.png" />
+        </a>
+
+        
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+
+          <li>
+            <a href="#">Shirts</a>
+            <span class="sale-label">Sale</span>
+          </li>
+
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Watches</a></li>
+          <li><a href="#">Bags</a></li>
+        </ul>
+        <div class="right-menu">
+          <a href="javascript:void(0);" class="search"> <i class="fas fa-search"> </i> </a
+          ><a href="javascript:void(0);" class="user">
+            <i class="fas fa-user"> </i>
+          </a>
+          <a href="#">
+            <i class="fas fa-shopping-cart">
+              <span class="num-cart-product">0</span>
+            </i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="search-bar">
+      <div class="search-input">
+        <input type="text" placeholder="Search for a Product" />
+        <a href="javascript:void(0);" class="search-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="form">
+      <div class="login-form">
+        <a href="javascript:void(0);" class="form-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+        <strong>Log In</strong>
+        <form>
+          <input
+            type="email"
+            placeholder="Example@gmail.com"
+            name="email"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+          <input type="submit" value="Log In" />
+        </form>
+        <div class="form-btns">
+          <a href="#" class="forget">Forgotten Password?</a>
+          <a href="javascript:void(0);" class="sign-up-btn">Create an Account</a>
+        </div>
+      </div>
+
+      <div class="sign-up-form">
+        <a href="javascript:void(0);" class="form-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+        <strong>Sign Up</strong>
+        <form>
+          <input
+            type="text"
+            placeholder="Full Name"
+            name="Full Name"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Example@gmail.com"
+            name="email"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+          <input type="submit" value="Sign up" />
+        </form>
+        <div class="form-btns">
+          <a href="javascript:void(0)" class="already-account">Already have an Account?</a>
+        </div>
+      </div>
+    </div>
+
+    <ul id="adaptive" class="cs-hidden">
+      <li class="item-a">
+        <div class="full-slider-box f-slide-1">
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>Limited Offer</span>
+              <strong
+                >30% off<br />
+                with <font>promo code</font></strong
+              >
+              <a href="#" class="f-slider-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="item-b">
+        <div class="full-slider-box f-slide-2">
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>Limited Offer</span>
+              <strong
+                >30% off<br />
+                with <font>promo code</font></strong
+              >
+              <a href="#" class="f-slider-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      
+      <li class="item-c">
+        <div class="full-slider-box f-slide-3">
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>Limited Offer</span>
+              <strong
+                >30% off<br />
+                with <font>promo code</font></strong
+              >
+              <a href="#" class="f-slider-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <section class="container content-section">
+      <div class="shop-items">
+          <div class="shop-item">
+              <span class="shop-item-title">Laptop Backpack</span>
+              <img class="shop-item-image" src="Images/bag_1.jpg">
+              <div class="shop-item-details">
+                  <span class="shop-item-price">GH¢12.99</span>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+          </div>
+          <div class="shop-item">
+              <span class="shop-item-title">HP Laptop Bag</span>
+              <img class="shop-item-image" src="Images/bag_2.jpg">
+              <div class="shop-item-details">
+                  <span class="shop-item-price">GH¢14.99</span>
+                  <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+              </div>
+          </div>
+          <div class="shop-item">
+              <span class="shop-item-title">Apple Bag</span>
+              <img class="shop-item-image" src="Images/bag_3.jpg">
+              <div class="shop-item-details">
+                  <span class="shop-item-price">GH¢9.99</span>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+          </div>
+          <div class="shop-item">
+              <span class="shop-item-title">Antitheft Bag with USB</span>
+              <img class="shop-item-image" src="Images/bag_4.jpg">
+              <div class="shop-item-details">
+                  <span class="shop-item-price">GH¢19.99</span>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+          </div>
+      </div>
+  </section>
+    
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+          <span class="cart-item cart-header cart-column">ITEM</span>
+          <span class="cart-price cart-header cart-column">PRICE</span>
+          <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items">
+      </div>
+      
+      <div class="cart-total">
+          <strong class="cart-total-title">Total</strong>
+          <span class="cart-total-price">GH¢0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">CHECKOUT</button>
+  </section>
+
+                                </body>
+                                </html>
