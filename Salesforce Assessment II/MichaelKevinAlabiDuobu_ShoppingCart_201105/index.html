@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's World</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lightslider.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/Jquery.js"></script>
+    <script src="js/lightslider.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="navigation">
+        <a href="#" class="logo">
+          <img src="images/logo.png" />
+        </a>
+
+        
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+
+          <li>
+            <a href="#">Shirts</a>
+            <span class="sale-label">Sale</span>
+          </li>
+
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Watches</a></li>
+          <li><a href="#">Bags</a></li>
+        </ul>
+        <div class="right-menu">
+          <a href="javascript:void(0);" class="search"> <i class="fas fa-search"> </i> </a
+          ><a href="javascript:void(0);" class="user">
+            <i class="fas fa-user"> </i>
+          </a>
+          <a href="#">
+            <i class="fas fa-shopping-cart">
+              <span class="num-cart-product">0</span>
+            </i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="search-bar">
+      <div class="search-input">
+        <input type="text" placeholder="Search for a Product" />
+        <a href="javascript:void(0);" class="search-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="form">
+      <div class="login-form">
+        <a href="javascript:void(0);" class="form-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+        <strong>Log In</strong>
+        <form>
+          <input
+            type="email"
+            placeholder="Example@gmail.com"
+            name="email"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+          <input type="submit" value="Log In" />
+        </form>
+        <div class="form-btns">
+          <a href="#" class="forget">Forgotten Password?</a>
+          <a href="javascript:void(0);" class="sign-up-btn">Create an Account</a>
+        </div>
+      </div>
+
+      <div class="sign-up-form">
+        <a href="javascript:void(0);" class="form-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+        <strong>Sign Up</strong>
+        <form>
+          <input
+            type="text"
+            placeholder="Full Name"
+            name="Full Name"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Example@gmail.com"
+            name="email"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+          <input type="submit" value="Sign up" />
+        </form>
+        <div class="form-btns">
+          <a href="javascript:void(0)" class="already-account">Already have an Account?</a>
+        </div>
+      </div>
+    </div>
+
+    <ul id="adaptive" class="cs-hidden">
+      <li class="item-a">
+        <div class="full-slider-box f-slide-1">
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>Limited Offer</span>
+              <strong
+                >30% off<br />
+                with <font>promo code</font></strong
+              >
+              <a href="#" class="f-slider-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="item-b">
+        <div class="full-slider-box f-slide-2">
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>Limited Offer</span>
+              <strong
+                >30% off<br />
+                with <font>promo code</font></strong
+              >
+              <a href="#" class="f-slider-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="item-c">
+        <div class="full-slider-box f-slide-3">
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>Limited Offer</span>
+              <strong
+                >30% off<br />
+                with <font>promo code</font></strong
+              >
+              <a href="#" class="f-slider-btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="feature-heading">
+      <h2>Featured Categories</h2>
+    </div>
+
+    <ul id="autoWidth" class="cs-hidden">
+      <li class="item">
+        <div class="feature-box">
+          <a href="#">
+            <img src="Images/feature_1.jpg" />
+          </a>
+        </div>
+        <span>T-Shirt</span>
+      </li>
+
+      <li class="item">
+        <div class="feature-box">
+          <a href="#">
+            <img src="Images/feature_2.jpg" />
+          </a>
+        </div>
+        <span>Shoe</span>
+      </li>
+
+      <li class="item">
+        <div class="feature-box">
+          <a href="#">
+            <img src="Images/feature_3.jpg" />
+          </a>
+        </div>
+        <span>Shoe</span>
+      </li>
+
+      <li class="item">
+        <div class="feature-box">
+          <a href="#">
+            <img src="Images/feature_4.jpg" />
+          </a>
+        </div>
+        <span>Watch</span>
+      </li>
+
+      <li class="item">
+        <div class="feature-box">
+          <a href="#">
+            <img src="Images/feature_5.jpg" />
+          </a>
+        </div>
+        <span>Watch</span>
+      </li>
+
+      <li class="item">
+        <div class="feature-box">
+          <a href="#">
+            <img src="Images/feature_6.jpg" />
+          </a>
+        </div>
+        <span>Bag</span>
+      </li>
+    </ul>
+
+    <section class="new-arrival">
+      <div class="arrival-heading">
+        <strong>New Arrival</strong>
+      </div>
+
+      <div class="product-container">
+        <div class="product-box">
+          <div class="product-img">
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+
+            <img src="images/p-1.png" />
+          </div>
+
+          <div class="product-details">
+            <a href="#" class="p-name">Jeans Long Sleeve Shirts</a>
+            <span class="p-price">GH¢ 450</span>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+
+            <img src="images/p-2.png" />
+          </div>
+
+          <div class="product-details">
+            <a href="#" class="p-name">4 Piece Short Sleeve T-Shirt</a>
+            <span class="p-price">GH¢ 80</span>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+
+            <img src="images/p-3.png" />
+          </div>
+
+          <div class="product-details">
+            <a href="#" class="p-name"
+              >Mashmello Printed Short Sleeve T-Shirt</a
+            >
+            <span class="p-price">GH¢ 39</span>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+
+            <img src="images/p-4.png" />
+          </div>
+
+          <div class="product-details">
+            <a href="#" class="p-name">British Executive Formal Shoes</a>
+            <span class="p-price">GH¢ 155</span>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+
+            <img src="images/p-5.png" />
+          </div>
+
+          <div class="product-details">
+            <a href="#" class="p-name">Running Sports Boots</a>
+            <span class="p-price">GH¢ 62</span>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+
+            <img src="images/p-6.png" />
+          </div>
+
+          <div class="product-details">
+            <a href="#" class="p-name">Yazole Leather Wrist Watch</a>
+            <span class="p-price">GH¢ 18</span>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+
+            <img src="images/p-7.png" />
+          </div>
+
+          <div class="product-details">
+            <a href="#" class="p-name">Laptop Backpack</a>
+            <span class="p-price">GH¢ 60</span>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+
+            <img src="images/p-8.png" />
+          </div>
+
+          <div class="product-details">
+            <a href="#" class="p-name">Insulated Cooler Lunch Bag</a>
+            <span class="p-price">GH¢ 25</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="banner-box f-slide-3"></div>
+
+    <section class="services">
+      <div class="services-box">
+        <i class="fas fa-shipping-fast"></i>
+        <span>Free Shipping</span>
+        <p>Free Shipping on All our Products!!!</p>
+      </div>
+      <div class="services-box">
+        <i class="fas fa-headphones-alt"></i>
+        <span>Support 24/7</span>
+        <p>We provide support 24hours a day</p>
+      </div>
+      <div class="services-box">
+        <i class="fas fa-sync"></i>
+        <span>100% Money Back</span>
+        <p>You have 30 days to Return</p>
+      </div>
+    </section>
+
+    <footer>
+      <span class="copyright"> Copyright 2020 - MichaelKevinAlabi </span>
+      <div class="subscribe">
+        <form>
+          <input type="email" placeholder="Example@gmail.com" required />
+          <input type="submit" value="Subscribe" />
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
